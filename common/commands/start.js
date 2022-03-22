@@ -2,7 +2,7 @@ class StartCommand {
     // Custom
     _process(bot) {
         return `
-Всем привет, я ${bot.botInfo.first_name} ${bot.botInfo.last_name}.
+Всем привет, я ${bot.botInfo.first_name ? bot.botInfo.first_name : ""} ${bot.botInfo.last_name ? bot.botInfo.last_name : ""}.
             
 Что-бы узнать о командах бота используете: /help
             
