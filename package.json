@@ -1,0 +1,13 @@
+{
+  "name": "hackathonloungebot",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {},
+  "keywords": [],
+  "author": "Dmitriy Pshennikov",
+  "license": "GPL-V3-OR-LATER",
+  "dependencies": {
+    "dotenv": "^16.0.0"
+  }
+}
